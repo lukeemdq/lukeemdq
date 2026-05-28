@@ -14,12 +14,12 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true&count_private=true&rank_icon=github" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="150" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukeemdq&layout=compact&theme=dracula&hide_border=true&langs_count=6" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukeemdq&layout=compact&theme=dracula&hide_border=true" height="150" alt="Top Languages" />
 </div>
 
 ---
