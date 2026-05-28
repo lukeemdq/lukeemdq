@@ -14,13 +14,8 @@
 ---
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true&card_width=400&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false" height="150" alt="GitHub Streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lukeemdq&theme=dracula" height="150" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lukeemdq&theme=dracula" height="150" alt="Top Languages by Repo" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lukeemdq&theme=dracula" height="150" alt="Top Languages by Commit" />
+  <img src="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/stats.svg" height="175" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="175" alt="GitHub Streak" />
 </div>
 
 ---
