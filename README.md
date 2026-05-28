@@ -1,9 +1,22 @@
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true" height="150" alt="stats graph" />
+
+# Olá, eu sou o Lucas! 👋
+### Desenvolvedor Full Stack com 3 anos de experiência
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true&count_private=true" height="150" alt="stats graph" />
+  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="150" alt="streak stats" />
+</div>
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukeemdq&layout=compact&theme=dracula&hide_border=true" height="150" alt="languages graph" />
 </div>
 
-###
+---
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
@@ -37,4 +50,8 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/github-contribution-grid-snake.svg" />
+</picture>
