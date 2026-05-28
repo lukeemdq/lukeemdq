@@ -14,12 +14,13 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="150" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true&card_width=400&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false" height="150" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lukeemdq&theme=dracula" height="150" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukeemdq&layout=compact&theme=dracula&hide_border=true" height="150" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lukeemdq&theme=dracula" height="150" alt="Top Languages by Repo" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lukeemdq&theme=dracula" height="150" alt="Top Languages by Commit" />
 </div>
 
 ---
