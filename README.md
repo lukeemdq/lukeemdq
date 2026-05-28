@@ -1,46 +1,54 @@
 <div align="center">
 
-# Olá, eu sou o Lucas! 👋
-### Desenvolvedor Full Stack com 3 anos de experiência
+# Hi there, I'm Lucas Eduardo! 👋
+
+### Front-End Developer | 3 Years of Experience
+
+<p align="center">
+  I'm a Front-End Developer focused on building intuitive, responsive, fast, and well-structured interfaces.<br/>
+  I have 3 years of hands-on experience developing projects that combine performance, design, and usability.<br/>
+</p>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukeemdq&show_icons=true&theme=dracula&hide_border=true&count_private=true" height="150" alt="stats graph" />
-  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="150" alt="streak stats" />
+  <img src="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/stats.svg" height="150" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=lukeemdq&theme=dracula&hide_border=true" height="150" alt="GitHub Streak" />
 </div>
 
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lukeemdq/lukeemdq/output/languages.svg" height="150" alt="Top Languages" />
+</div>
 
 ---
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql" />
   <img width="12" />
-  <img src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4" height="30" alt="n8n logo" style="border-radius: 6px;" />
+  <img src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4" height="30" alt="n8n" style="border-radius: 6px;" />
 </div>
 
 ###
 
 <div align="left">
   <a href="https://www.linkedin.com/in/lucasemqueiroz/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin" />
   </a>
 </div>
 

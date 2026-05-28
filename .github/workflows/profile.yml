@@ -1,0 +1,68 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at midnight
+  workflow_dispatch:        # run manually anytime
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── GitHub Stats SVG (no Vercel needed) ───────────────────────────
+      - name: Generate GitHub Stats SVGs
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: lukeemdq
+          base: header, activity, community, repositories
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          output_action: none          # we handle the push ourselves
+          filename: stats.svg
+
+      - name: Generate Languages SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: lukeemdq
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          output_action: none
+          filename: languages.svg
+
+      # ── Snake animation ───────────────────────────────────────────────
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: lukeemdq
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # ── Copy stats SVGs into dist ─────────────────────────────────────
+      - name: Move stats into dist
+        run: |
+          mv stats.svg dist/stats.svg
+          mv languages.svg dist/languages.svg
+
+      # ── Push everything to the output branch ──────────────────────────
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "chore: update profile assets [skip ci]"
